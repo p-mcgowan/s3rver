@@ -1571,8 +1571,8 @@ describe("S3rver Class Tests", function() {
       indexDocument: "index.html",
       errorDocument: "",
       directory: "./testdir",
-      key: new Buffer([1, 2, 3]),
-      cert: new Buffer([1, 2, 3]),
+      key: Buffer.from([1, 2, 3]),
+      cert: Buffer.from([1, 2, 3]),
       removeBucketsOnClose: true
     });
 
