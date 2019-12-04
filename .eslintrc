@@ -4,12 +4,15 @@
     "es6": true
   },
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 2017
   },
   "extends": [
     "eslint:recommended",
     "prettier"
   ],
+  "rules": {
+    "no-useless-catch": 0
+  },
   "overrides": [
     {
       "files": "test/**/*.js",
